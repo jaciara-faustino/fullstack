@@ -34,6 +34,17 @@ Conforme avançar na formação, novos módulos e projetos serão adicionados.
 - Praticar Git e GitHub para controle de versões.
 - Evoluir na construção de interfaces, aplicações e testes de software.
 
+## 📚 Estudos e aulas
+
+### HTML5
+- Conteúdo: Fundamentos de HTML5
+- Gravação da aula: [Assistir no Google Drive](https://drive.google.com/file/d/1UhKqDRMZBhOczFMzN6yC2nkSOu2jym9-/view?usp=drive_link)
+- Prática: Formulário de cadastro de clientes
+- Status: Concluído ✅
+
+### CSS
+- Status: Em andamento 🚧
+
 ## 📈 Em desenvolvimento
 
 Este repositório será atualizado continuamente conforme meu progresso na formação.
