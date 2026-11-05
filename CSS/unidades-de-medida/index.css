@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #232323;
+    color: #ffffff;
+    padding: 10px;
+}
+
+section{
+    background-color: #ebb7b7;
+    height: 100px;
+}
+
+.box{
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+    text-align: center;
+}
+
+.px{
+    height: 10px;
+}
+
+/* root element -> 16px (tamanho padrão) * 3 = 48px */
+.rem{
+    height: 3rem;
+}
+/*  medida relativa que se adapta ao tamanho da fonte do elemento */
+.em{
+    height: 2em;
+    font-size: 32px;
+}
+
+/* % representa uma proporção em relação a outro elemento ou valor de referência. */
+.prcnt-33{
+    height: 33%;
+}
+
+.prcnt-66{
+    height: 66%;
+}
+
+.prcnt-100{
+    height: 100%;
+}
+
+/* viewport height (baseada na área de visualização no navegador vertical) */
+.vh{
+    height: 30vh;
+}
+
+/* viewport width (baseada na área de visualização no navegador horizontal) */
+.vw{
+    width: 50vw;
+}

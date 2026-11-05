@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro de Clientes</h1>
+    <p>Formulário para a inserção de dados de novos clientes</p>
+
+    <form>
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" name="nome" required placeholder="Ex: Jaciara Faustino">
+        <br></br>
+        <label for="email">E-mail:</label> <br>
+        <input type="email" id="email" name="email" required>
+        <br></br>
+        <label for="telefone">Telefone:</label> <br>
+        <input type="tel" id="telefone" name="telefone">
+        <br></br>
+        <label for="empresa">Empresa:</label> <br>
+        <input type="text" id="empresa" name="empresa" required>
+        <br></br>
+        <label for="cargo">Cargo:</label> <br>
+        <input type="text" id="cargo" name="cargo">
+        <br></br>
+        <label for="tipo">Tipo de Cliente:</label> <br>
+        <select name="tipo" id="tipo" required>
+            <option value="" disabled selected> Selecione uma opção</option>
+            <option value="pfisica">Pessoa Física</option>
+            <option value="pjuridica">Pessoa Jurídica</option>
+            <option value="mei">MEI</option>
+        </select>
+        <br></br>
+        <label for="observacoes">Observações:</label> <br>
+        <textarea name="observacoes" id="observacoes"></textarea>
+        <br></br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+
+</body>
+</html>

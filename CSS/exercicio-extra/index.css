@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #ffa500;
+    --cor-escura: #232323;
+    --cor-clara: #eaeaea;
+    --cor-branca: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-escura);
+    color: var(--cor-branca);
+    padding: 1.5rem;
+}
+
+nav ul {
+    list-style:none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url("img/pexels-narda-yescas-1566837.jpg");
+    background-size: cover;
+    color: var(--cor-branca);
+    min-height: 75vh;
+    padding: 10rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight:100;
+}
+
+.hero p{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+}
+
+.cta-button {
+    background-color: var(--cor-primaria);
+    border-radius: 0.5rem;
+    color: var(--cor-escura);
+    display: inline-block;
+    font-weight:700;
+    font-size:1.25rem;
+    margin:1.5rem;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem; 
+}
+
+section:not(#home) {
+    padding: 4rem;
+    text-align:center;
+}
+
+h2 {
+    font-size:3rem;
+    margin-bottom:1.5rem;
+}
+
+p {
+    font-size:1.25rem;
+}
+
+.menu-list {
+    list-style:none;
+}
+
+.menu-list >li {
+    background-color: var(--cor-clara);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px -4px rgba(0,0,0,0.5);
+    display:inline-block;
+    margin:1.5rem;
+    height:28rem;
+    width:28rem;
+    text-align:left;
+}
+
+.menu-list img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit:cover;
+    width:100%;
+}
+
+.menu-list h3,
+.menu-list p {
+    padding:1rem 1.25rem 0;
+}
+
+#sobre {
+    background-image: linear-gradient( 
+        to bottom, 
+        rgba(0,0,0,0) 0%, 
+        rgba(0,0,0,0.8) 100%), 
+    url(img/pexels-eneida-nieves-905847.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-branca);
+}
+
+address{
+    margin-top:2rem 0;
+}
+
+address > * {
+    display:inline-block;
+    margin: 1.5rem;
+    text-align: left;
+}
+
+footer {
+    background-color: var(--cor-escura);
+    color: var(--cor-branca);
+    padding: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+/* Seletor nth-child () 
+usada para selecionar um elemento de acordo 
+com sua posição entre os elementos dentro de um grupo.*/
+li:nth-child(2){
+    color: #db2626;
+}
+
+li:nth-child(odd){
+    color: #2665db;
+}
+li:nth-child(even){
+    color: #db3226;
+}
+
+li:hover {
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: underline;
+}
+input:focus{
+    background-color: #524196;
+    color: #ffffff;
+}
+
+/* :: Before :: After 
+permitem inserir conteúdo ou elementos visuais antes ou depois 
+do conteúdo de um elemento HTML, sem precisar adicionar novas tags no HTML.*/
+
+li::before{
+    content: " ★ ";
+    color:#f0b30d;
+}
+
+li::after{
+    content: " (depois)";
+}
+
+li:first-child{
+    color: #f0b35d;
+}
+
+li:last-child{
+    background-color: #00ffff;
+    color: #000000;
+}
+
+li:not(:first-child){
+    background-color: #f50e0e;
+    color: #000000;
+}

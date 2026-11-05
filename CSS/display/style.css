@@ -1,0 +1,36 @@
+.inline{
+    display: inline;
+    margin-right: 12px;
+    margin-left: 12px;
+
+}
+/* inline:
+não quebra de linha,
+largura mínima
+não aceita margem e nem preenchimento vertical, apenas horizontal */
+
+.block{
+    display: block;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/* block:
+quebra de linha,
+largura máxima, mesmo não tendo nenhum texto,
+aceita margem e preenchimento vertical e horizontal */
+
+.inline-block{
+    display:inline-block;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+/* inline-block:
+não quebra linha,
+permite o preencimento e a margem vertical */
